@@ -28,7 +28,7 @@ C_TCP = 1
 C_UDP = 2
 host_list = []
 
-folder_name = args.folder()
+folder_name = args.folder
 file_list = os.listdir(folder_name)
 
 for file_name in file_list:
